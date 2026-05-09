@@ -3,7 +3,6 @@
 **Course:** ITAI 1378 – Computer Vision and AI  
 **Student:** Jonathan Ball  
 **Tier:** Tier 1 — Binary Image Classification  
-**Due:** October 30 (Week 10)
 
 ---
 
