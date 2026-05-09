@@ -1,0 +1,22 @@
+# ── Save final model + summary ─────────────────────────────────────────────
+torch.save({
+    "model_state_dict": model.state_dict(),
+    "class_names": CLASS_NAMES,
+    "accuracy": accuracy,
+    "recall": recall,
+    "precision": precision,
+    "f1": f1,
+}, "clearlung_final.pth")
+
+print("✅ Final model saved to clearlung_final.pth")
+print()
+print("=" * 55)
+print("  FINAL SUMMARY")
+print("=" * 55)
+print(f"  Model        : ResNet-18 (Transfer Learning)")
+print(f"  Dataset      : Kaggle Chest X-Ray (Pneumonia)")
+print(f"  Test Accuracy: {accuracy*100:.1f}%  (target ≥ 88%)")
+print(f"  Test Recall  : {recall*100:.1f}%  (target ≥ 90%)")
+print(f"  Test F1      : {f1*100:.1f}%")
+print(f"  AUC          : {roc_auc:.3f}")
+print("=" * 55)
