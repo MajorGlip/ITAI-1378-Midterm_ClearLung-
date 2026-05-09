@@ -1,7 +1,7 @@
 # ClearLung: Pneumonia Detection from Chest X-Rays
 
 **Course:** ITAI 1378 – Computer Vision and AI  
-**Student:** [Your Name Here]  
+**Student:** Jonathan Ball  
 **Tier:** Tier 1 — Binary Image Classification  
 **Due:** October 30 (Week 10)
 
@@ -152,7 +152,7 @@ ClearLung/
 
 ```bash
 # Clone the repo
-git clone https://github.com/[your-username]/ClearLung.git
+git clone https://github.com/MajorGlip/ClearLung.git
 cd ClearLung
 
 # Install dependencies
